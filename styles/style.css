@@ -6,3 +6,26 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-background header img {
+    width: 130px;
+    margin-left: 30px;
+}
+
+#main-background > header > nav > a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
